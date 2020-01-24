@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+  int a,b,sum,sub,div,rem,pro,c;
+  printf("enter the value of a : ");
+  scanf("%d", &a);
+  
+  printf("enter the value of b: ");
+  scanf("%d", &b);
+  
+  sum=a+b;
+  sub=a-b;
+  pro=a*b;
+  div=a/b;
+  rem=a%b;
+  
+  printf("choose your operation on the entered numbers: ");
+  printf("1. ADDITION ");
+  printf("2. SUBSTRACTION ");
+  printf("3. PRODUCT ");
+  printf("4. DIVISION ");
+  printf("5. REMAINDER ");
+  
+  scanf("%d", &c);
+  
+  if(c==1)
+  {
+    printf(" Addition of entered numbers is: %d", sum);
+   }
+   
+   else if(c==2)
+   {
+    printf(" Substraction of entered numbers is : %d", sub);
+   }
+   
+   else if(c==3)
+   {
+    printf(" product of entered numbers is %d", pro);
+   }
+   
+   else if(c==4)
+   {
+    printf("quotient of entered numbers after division is %d", div);
+   }
+   
+   else if(c==5);
+   {
+    printf("Remainder of entered number after division is %d", rem);
+   } 
+  } 
