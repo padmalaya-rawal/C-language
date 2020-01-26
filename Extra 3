@@ -1,0 +1,15 @@
+/*Write a program in C that takes minutes as input, and display the total number of hours and minutes */
+
+#include<stdio.h>
+int main()
+{
+	int min,hr;
+	printf("Enter the total minutes: ");
+	scanf("%d",&min);
+	
+	hr=min/60;
+	min=min%60;
+	
+	printf("Time in hours and minutes: %d.%d ",hr,min);
+	return 0;
+}
