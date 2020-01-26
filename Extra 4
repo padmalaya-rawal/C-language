@@ -1,0 +1,17 @@
+/* Write a C program that takes hours and minutes as input, and 
+calculates the total number of minutes.*/
+
+#include<stdio.h>
+int main()
+{
+	int hr,min,tm;
+	printf("Hours: ");
+	scanf("%d", &hr);
+	
+	printf("Minutes: ");
+	scanf("%d", &min);
+
+	tm=(hr*60)+min;
+	printf("Total minutes: %d",tm);
+	return 0;
+}	
