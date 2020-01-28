@@ -1,0 +1,52 @@
+/*Input Any Day Number and Display its equivalent Day Name.
+If Day is 1 then Print Monday
+If Day is 2 then Print Tuesday
+If Day is 3 then Print Wednesday
+If Day is 4 then Print Thursday
+If Day is 5 then Print Friday
+If Day is 6 then Print Saturday
+If Day is 7 then Print Sunday
+If other day is specified then print invalid Day */
+
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("Enter any number: ");
+	printf("\n1. Monday");
+	printf("\n2. Tuesday");
+	printf("\n3. Wednesday");
+	printf("\n4. Thursday");
+	printf("\n5. Friday");
+	printf("\n6. Saturday");
+	printf("\n7. Sunday");
+	printf("\nChoosen day: ");
+	scanf("%d", &num);
+	
+	if(num==1)
+		printf("Monday");
+		
+	else if(num==2)
+		printf("Tuesday");
+		
+	else if(num==3)
+		printf("Wednesday");
+		
+	else if(num==4)
+		printf("Thursday");
+		
+	else if(num==5)
+		printf("Friday");
+	
+	else if(num==6)
+		printf("Saturday");
+		
+	else if(num==7)
+		printf("Sunday");
+		
+	else
+		printf("Invalid day");
+		
+	return 0;
+}	
+	
