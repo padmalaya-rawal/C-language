@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int num,temp,rem;
+    printf("Enter any five digit number: ");
+    scanf("%d",&num);
+    
+    temp=num;
+    rem=temp%10;
+    mul=rem;
+    
+    temp=rem/10;
+    rem=temp%10;
+    mul=mul*rem;
+    
+    temp=rem/10;
+    rem=temp%10;
+    mul=mul*rem;
+    
+    temp=rem/10;
+    rem=temp%10;
+    mul=mul*rem;
+    
+    temp=rem/10;
+    rem=temp%10;
+    mul=mul*rem;
+    
+    printf("Multiplying all the digits of the number: %d",mul);
+   
+    return 0; 
+    
+}
