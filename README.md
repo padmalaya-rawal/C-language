@@ -29,7 +29,7 @@ If other day is specified then print INvalid Day
 Ques E11:  Input Any Character and check it is vowel or not.
 
 Ques E12:  Input any three number and display which one is largest according to
-given situation and result;
+given situation and result:
 n1	n2	n3	Output
 5	5	5	All Three Are Equal
 5	5	2	First and Second Number are Largest
