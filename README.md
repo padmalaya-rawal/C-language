@@ -24,12 +24,12 @@ If Day is 4 then Print Thursday
 If Day is 5 then Print Friday
 If Day is 6 then Print Saturday
 If Day is 7 then Print Sunday
-If other day is specified then print INvalid Day
+If other day is specified then print Invalid Day
 
 Ques E11:  Input Any Character and check it is vowel or not.
 
 Ques E12:  Input any three number and display which one is largest according to
-given situation and result:
+given situation and resuly should be:
 n1	n2	n3	Output
 5	5	5	All Three Are Equal
 5	5	2	First and Second Number are Largest
