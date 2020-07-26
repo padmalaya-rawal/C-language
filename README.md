@@ -37,8 +37,6 @@ n1	n2	n3	Output
 2	5	5	Second and Third Number are Largest
 5	1	2	First Number is Largest
 5	11	2	Second Number is Largest
-1	3	5	Third Number is Largest
+1	3	5	Third Number is Largest one
 
 Ques E13 : If a five-digit number is input through the keyboard, write a program to print a new number by adding one to each of its digits. For example if the number that is input is 12391 then the output should be displayed as 23402.
-
-Ques E14 : 
