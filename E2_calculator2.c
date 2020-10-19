@@ -1,3 +1,5 @@
+//calcuator project
+
 #include<stdio.h>
 
 int main()
@@ -15,11 +17,11 @@ int main()
   printf("\n\n OPERATION NUMBER: %d",x);
   printf("\n choose your operation on the entered numbers: ");
   printf("\n 1. ADDITION ");
-  printf("\t 2. SUBSTRACTION ");
+  printf("\t 2. SUBTRACTION ");
   printf("\t 3. PRODUCT ");
   printf("\t 4. DIVISION ");
   printf("\t 5. REMAINDER ");
-  printf("\n entered choice: ");
+  printf("\n please enter your choice : ");
   scanf("%d", &c);
 
   printf("\n enter next value: ");
@@ -41,19 +43,19 @@ int main()
 
   else if(c==2)
   {
-   printf("\n Substraction of entered numbers is : %d", sub);
+   printf("\n Subtraction of entered numbers is : %d", sub);
    i=sub;
   }
  
   else if(c==3)
   {
-   printf("\n product of entered numbers is %d", pro);
+   printf("\n Product of entered numbers is %d", pro);
    i=pro;  
   }
 
   else if(c==4)
   {
-   printf("\n quotient of entered numbers after division is %d", div);
+   printf("\n Quotient of entered numbers after division is %d", div);
    i=div;
   }
 
